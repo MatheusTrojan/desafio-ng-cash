@@ -1,5 +1,5 @@
 const Sequelize = require ("sequelize")
-const sequelize = new Sequelize("ng-cash", "root", "matheus123", {
+const sequelize = new Sequelize("ng-cash", "postgres", "123456", {
     dialect: "postgres",
     host: "localhost"
 })

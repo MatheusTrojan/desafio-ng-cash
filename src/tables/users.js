@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const database = require("./db");
+const database = require("../config/db");
 
 const Users = database.define("users", {
     id: {
@@ -15,4 +15,4 @@ const Users = database.define("users", {
     password: Sequelize.STRING
 })
 
-module.exports = Produto;
+module.exports = Users;
